@@ -24,6 +24,12 @@ TRAIN
 - mixed precision trained
 """
 
+"""
+shell:
+
+CUDA_DEVICE_ORDER=PCI_BUS_ID CUDA_VISIBLE_DEVICES=2
+"""
+
 
 import torch
 import torch.nn as nn
